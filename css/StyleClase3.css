@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none !important;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+body .bannerResto {
+  background-image: linear-gradient(to top, #feb685, #ff7f27);
+}
+body .bannerResto .logoEncabezado {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 5px 5px 0px 5px;
+}
+body #encabezadoIndex {
+  background-image: linear-gradient(to top, #feb685, #ff7f27);
+  padding: 7px 7px 5px 7px;
+}
+body #encabezadoIndex #imgEncabezadoIndex {
+  border: 1px solid black;
+  padding: 3px 2px 3px 2px;
+}
+body .claseNavegador ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+body .claseNavegador ul li {
+  color: black;
+  margin: 5px 20px;
+  padding: 5px;
+  width: 150px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  background-color: rgba(255, 136, 0, 0.281);
+  font-weight: bold;
+}
+body .claseNavegador ul li:hover {
+  color: orangered;
+}
+body main .cuerpoVentas {
+  width: 90%;
+  margin: 2em auto;
+}
+body main .cuerpoVentas .cuerpoVentas-Primero {
+  margin: 4em 0;
+  display: flex;
+  align-items: center;
+}
+body main .cuerpoVentas .cuerpoVentas-Primero img {
+  height: 300px;
+}
+body main .cuerpoVentas .cuerpoVentas-Primero .cuerpoVentas-txt {
+  padding: 6em;
+}
+body main .cuerpoVentas .cuerpoVentas-Primero .cuerpoVentas-txt h3 {
+  margin-bottom: 1em;
+}
+body main .titulo1 {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: fadeTitulo1;
+          animation-name: fadeTitulo1;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: orange;
+  font-size: 4em;
+  margin: 5px;
+  text-align: center;
+}
+body #mainIndex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+body #mainIndex .carousel-inner img {
+  width: 100%;
+  height: 40%;
+  margin-bottom: 80px;
+}
+body #mainIndex .titulo1 {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: fadeTitulo1;
+          animation-name: fadeTitulo1;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: orange;
+  font-size: 4em;
+  margin: 5px;
+  text-align: center;
+}
+body #mainIndex .img1Main {
+  margin: auto;
+  padding: 10px;
+}
+body #mainIndex .texto1 {
+  margin: 10px 25% 10px 25%;
+}
+body #mainIndex .videoyt1 {
+  text-align: center;
+  margin: 5px;
+}
+body #videoYT {
+  text-align: center;
+}
+body #videoYT .videoYT2 {
+  border-radius: 5px;
+}
+body #videoYT .txt-OtrosCompo {
+  text-align: justify;
+  margin: 15px;
+}
+body #cuerpoContacto {
+  margin: 20px;
+  text-align: center;
+}
+body #cuerpoContacto iframe {
+  padding-top: 5px;
+}
+body #cuerpoContacto .tituloContacto {
+  font-size: 110%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+body #cuerpoContacto .map {
+  border-radius: 10px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #feb685, #ff7f27);
+  text-align: left, justify;
+  align-items: center;
+  bottom: 0px;
+}
+body footer .p {
+  font-weight: bold;
+  text-align: left, justify;
+  /* background-color: orange; */
+}
+body footer #redes {
+  /* background-color: orange; */
+  text-align: center;
+}
+
+@media only screen and (max-width: 0px) {
+  .img1Main {
+    width: 60%;
+  }
+
+  .titulo1 {
+    font-size: 1em;
+  }
+
+  .videoyt1 iframe {
+    width: 280px;
+    height: 157px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .img1Main {
+    width: 50%;
+  }
+
+  .titulo1 {
+    font-size: 2em;
+  }
+
+  .videoyt1 iframe {
+    width: 350px;
+    height: 210px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .img1Main {
+    width: 50%;
+  }
+
+  .titulo1 {
+    font-size: 3em;
+  }
+
+  .videoyt1 iframe {
+    width: 360px;
+    height: 260px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .titulo1 {
+    font-size: 3.5em;
+  }
+
+  .videoyt1 iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+@-webkit-keyframes fadeTitulo1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeTitulo1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=StyleClase3.css.map */
