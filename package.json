@@ -1,0 +1,20 @@
+{
+  "name": "porpartes",
+  "version": "1.0.0",
+  "description": "PorPartes pone a la venta una amplia gama de elementos de computacion y gaming para los que buscan lo mejor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanCruzLomba/PorPartes.git"
+  },
+  "keywords": [],
+  "author": "Juan Cruz Lomba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanCruzLomba/PorPartes/issues"
+  },
+  "homepage": "https://github.com/juanCruzLomba/PorPartes#readme"
+}
